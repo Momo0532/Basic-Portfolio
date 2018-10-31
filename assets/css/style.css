@@ -1,0 +1,88 @@
+/**
+ * basic port
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+header {
+    width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  
+  background: #FFFFFF;
+}
+/*** top name nav links **/
+#FullName {
+width: 350px;
+float: left; 
+/**padding: 20px;**/
+  margin-bottom: 0px; 
+  background: #4aaaa5;
+}
+#Navigation {
+  float: left; 
+  width: 610px;
+  margin-bottom: 0px;
+  background: #FFFFFF;
+  padding: 14px 16px;
+  
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF
+  }
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    text-align: right;
+  }
+  section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #FFA500;
+}
+/*** body 960*960 **/
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  text-align: left;
+  
+
+}
+#mainContent {
+    float: left;
+    width: 960px;
+    padding: 20px;
+    clear: both;
+    background: #FFFFFF;
+    border: 1px solid #dddddd;
+   
+}h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+  text-align: left;
+}
+img {
+  padding:15px;
+  border:0px;
+  margin:-2px;
+}
+/*** body 960*960 **/
+
+/*** footer **/
+
+footer {
+  width: 960px;
+  padding: 20px;
+  background: #666666;
+  clear: both;
+}
